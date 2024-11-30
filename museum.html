@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Museums in India</title>
+  <style>
+     h4
+	{
+	 color: black;
+         font-size:50px;
+       }
+ 
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color:skyblue;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    header nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    header nav ul li a {
+      color: black;
+      text-decoration: underline;
+      font-size: 18px;
+    }
+
+    h1, h2, h3 {
+      color: #333;
+    }
+
+    /* Home Section */
+    #home {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #fff;
+    }
+
+    #home img {
+      width: 80%;
+      height: auto;
+      margin-top: 20px;
+    }
+
+    /* Temples Section */
+    #temples {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 40px 20px;
+      background-color: #e9ecef;
+    }
+
+    .temple {
+      width: 45%;
+      margin: 20px;
+      text-align: center;
+      background-color: whitesmoke;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+
+    .temple img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .temple h3 {
+      margin-top: 10px;
+      font-size: 24px;
+    }
+
+    .btn {
+      background-color: #007bff;
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+      display: inline-block;
+    }
+
+    /* Gallery Section */
+    #gallery {
+      padding: 40px 20px;
+      background-color: lavender;
+    }
+
+    .gallery-category {
+      margin-bottom: 30px;
+    }
+
+    .gallery-category h3 {
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .gallery-item {
+      width: 30%;
+      margin: 10px;
+      display: inline-block;
+      text-align: center;
+    }
+
+    .gallery-item img {
+      width: 80%;
+      height: 200px;
+      border-radius: 10px;
+    }
+
+    /* Blog Section */
+    #blog {
+      padding: 40px 20px;
+      background-color: lightpink;
+      text-align: center;
+    }
+
+    iframe {
+      width: 100%;
+      max-width: 800px;
+      height: 400px;
+      border: none;
+    }
+
+    /* Contact Section */
+    #contact {
+      padding: 40px 20px;
+      background-color: lightpink;
+      text-align: center;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    form button {
+      background-color: #28a745;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* Media Queries */
+    @media (max-width: 768px) {
+      .temple {
+        width: 100%;
+      }
+
+      .gallery-item {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h4>Museums - Treasures</h4>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#temples">Museums</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Home Section -->
+<section id="home">
+  <h1>Museums in India</h1>
+  <p>India is home to a rich variety of museums, ranging from historical and cultural institutions to art and science museums. Notable ones include the National Museum in Delhi, the Indian Museum in Kolkata, and the Chhatrapati Shivaji Maharaj Vastu Sangrahalaya in Mumbai.</p>
+  <img src="https://tse1.mm.bing.net/th?id=OIP.2lpPBwqxCJDPVs7KOINXJQHaEK&pid=Api&P=0&h=180" alt="Museums">
+</section>
+
+<!-- Temples Section -->
+<section id="temples">
+  <h2>Explore Museums in India</h2>
+  <center><div class="temple">
+    <img src="https://www.fabhotels.com/blog/wp-content/uploads/2018/07/1000x650-60.jpg" alt="National Museum,New Delhi">
+    <h3>National Museum,New Delhi</h3>
+    <p>The National Museum in New Delhi is one of the largest museums in India, showcasing a vast collection of artifacts spanning thousands of years of Indian history. Its exhibits include sculptures, paintings, manuscripts, textiles, and archaeological finds, offering insights into India's rich cultural and historical heritage.</p>
+    <a href="https://nationalmuseumindia.gov.in/en" target="_blank" class="btn">Tap to Visit</a>
+  </div>
+  <div class="temple">
+    <img src="https://tse2.mm.bing.net/th?id=OIP.KBzJAwHPMAQEu4pM7VoUrQHaE8&pid=Api&P=0&h=180" alt="Indian Museum,Kolkata">
+    <h3>Indian Museum,Kolkata</h3>
+    <p>The Indian Museum in Kolkata, established in 1814, is the oldest and largest museum in India. It houses a diverse collection of artifacts, including ancient sculptures, paintings, fossils, and Egyptian mummies, as well as exhibits on art, archaeology, and anthropology, providing a comprehensive view of India's cultural and natural history.</p>
+    <a href="https://indianmuseumkolkata.org/" target="_blank" class="btn">Tap to Visit</a>
+  </div>
+  <div class="temple">
+    <img src="https://tse1.mm.bing.net/th?id=OIP.AhDg2sJkncJCmeTMNiv8JQHaFj&pid=Api&P=0&h=180" alt="Salar Jung Museum, Hyderabad">
+    <h3>Salar Jung Museum, Hyderabad</h3>
+    <p>The Salar Jung Museum in Hyderabad is one of India's most renowned museums, famous for its impressive collection of art, antiques, and manuscripts. It showcases over 43,000 art pieces, including sculptures, textiles, and rare artifacts from various cultures, with notable works like the Veiled Rebecca and the Double Musician sculpture.</p>
+    <a href="https://en.wikipedia.org/wiki/Salar_Jung_Museum" target="_blank" class="btn">Tap to Visit</a>
+  </div>
+  <div class="temple">
+    <img src="https://tse4.mm.bing.net/th?id=OIP.F2u7AjItuqeNem5oWkrnKgHaDU&pid=Api&P=0&h=180" alt="Victoria Memorial Hall,Kolkata">
+    <h3>Victoria Memorial Hall,Kolkata</h3>
+    <p>The Victoria Memorial Hall in Kolkata is a grand historical museum and monument dedicated to Queen Victoria, built in the early 20th century. It houses a vast collection of colonial-era artifacts, paintings, sculptures, and manuscripts, offering a glimpse into the British colonial period in India. The memorial is set amidst lush gardens and is an iconic landmark of the city.</p>
+    <a href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata" target="_blank" class="btn">Tap to Visit</a>
+  </div>
+  <div class="temple">
+    <img src="http://media-cdn.tripadvisor.com/media/photo-s/03/e0/57/cd/indira-gandhi-rashtriya.jpg" alt="Indira Gandhi Rashtriya Manav Sangrahalaya,Bhopal">
+    <h3>Indira Gandhi Rashtriya Manav Sangrahalaya,Bhopal</h3>
+    <p>The Indira Gandhi Rashtriya Manav Sangrahalaya (National Museum of Mankind) in Bhopal is an open-air museum dedicated to showcasing the cultural diversity and heritage of India’s indigenous communities. The museum features tribal art, artifacts, and traditional housing displays, with exhibits highlighting the customs, lifestyles, and practices of various ethnic groups across India.</p>
+    <a href="https://igrms.gov.in/" target="_blank" class="btn">Tap to Visit</a>
+  </div></div>
+</center>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery">
+  <h2>Explore Historical and Cultural Museums in India</h2>
+  <div class="gallery-category">
+    <h3>Museums in India</h3>
+    <div class="gallery-item"><img src="https://s.yimg.com/zb/imgv1/5d26220d-5d86-36fe-a7ab-52ad74472428/t_500x300" alt="Government Museum"></div>
+    <div class="gallery-item"><img src="https://tse1.mm.bing.net/th?id=OIP.qpGz9gJdLFfUn_clwrmvgAHaE7&pid=Api&P=0&h=180" alt="APJ Abdul Kalam Museum"></div>
+    <div class="gallery-item"><img src="https://c8.alamy.com/comp/2RHE9FT/the-visvesvaraya-industrial-and-technological-museum-at-the-electronic-city-in-the-city-of-bangalore-in-the-province-karnataka-in-india-india-banga-2RHE9FT.jpg" alt="Visvesvaraya Industrial and Technological Museum"></div>
+    <div class="gallery-item"><img src="https://assets.telegraphindia.com/telegraph/2021/Dec/1640196667_bitm-main-entrance-1.jpg" alt="Birla Industrial and Technological Museum"></div>
+    <div class="gallery-item"><img src="https://yometro.com/images/places/national-handicrafts-and-handlooms-museum.jpg" alt="Crafts Museum"></div>
+    <div class="gallery-item"><img src="https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/sites/1/2016/01/National-Gallery-Modern-Art-New-Delhi-copy.jpg?w=1200&h=628&fill=blur&fit=fill" alt="National Gallery of Modern Art"></div>
+    <div class="gallery-item"><img src="https://tse1.mm.bing.net/th?id=OIP.jrENznI5I2rkdLXVYZNUOAHaDV&pid=Api&P=0&h=180" alt="Kiran Nadar Museum of Art"></div>
+    <div class="gallery-item"><img src="https://static.toiimg.com/photo/msid-57124306,width-96,height-65.cms" alt="Regional Museum of Natural History"></div>
+    <div class="gallery-item"><img src="https://tse4.mm.bing.net/th?id=OIP.WokNsjwZj242zqGbM_j04gHaFj&pid=Api&P=0&h=180" alt="Calico Museum of Textiles"></div>
+    <div class="gallery-item"><img src="https://media-cdn.tripadvisor.com/media/photo-s/05/54/1b/c9/indian-air-force-museum.jpg" alt="Indian Airforce Museum"></div>
+    <div class="gallery-item"><img src="https://tse3.mm.bing.net/th?id=OIP.CQ8_N4L4Wyq1r0p2agB_nAHaEa&pid=Api&P=0&h=180" alt="Jaisalmer War Museum"></div>
+    <div class="gallery-item"><img src="https://tse2.mm.bing.net/th?id=OIP.oArVyU3IWfFe0TQ85TQEDwHaE8&pid=Api&P=0&h=180" alt="Naval Aviation Museum"></div>    
+  </div>
+  	
+    
+
+</section>
+
+<!-- Blog Section -->
+<section id="blog">
+  <h2>Read More About Museums in India</h2>
+  <h3>Articles</h3>
+  <ul>
+    <li><a href="https://en.wikipedia.org/wiki/Museum">Museums (Google Search)</a></li>
+    <li><a href="https://www.tourmyindia.com/blog/top-10-popular-museums-india/" target="_blank">Top 10 Popular Museums in India (Google Search)</a></li>
+  </ul>
+  <h3>YouTube Videos</h3>
+  <iframe src="C:\Users\Mandala Gayathri\Downloads\WhatsApp Video 2024-11-30 at 4.31.27 PM.mp4" title="YouTube video player"></iframe>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <h2>Contact Us</h2>
+  <form id="contactForm">
+    <label for="name">Name:</label>
+            <input type="text" id="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" rows="3" required></textarea><br>
+
+            <button type="submit">Submit</button>
+  </form>
+</section>
+
+<script>
+  // Simple JavaScript for smooth scrolling (optional)
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+  document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent form from submitting
+
+            // Get form values
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+
+            // Show alert with submitted information
+            alert('Form Submitted!\n\nName: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
+        });
+
+  
+</script>
+
+</body>
+</html>
